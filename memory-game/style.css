@@ -1,0 +1,49 @@
+#game div {
+    border: 2px solid rgb(6, 6, 6);
+    width: 15%;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 2s;
+    backface-visibility: none;
+}
+
+ 
+.outerTable {
+     
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 450px;
+    
+   
+    text-align: center;
+    color: #FFFFFA;
+    position: absolute;
+    
+    border-radius: 4px; 
+    justify-content: center;
+}
+ 
+
+.text-center {
+    text-align: center;
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+   
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+
+  .positionText{
+    text-align: center;
+  }
+ 
+ 
