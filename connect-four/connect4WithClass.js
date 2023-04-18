@@ -18,7 +18,7 @@ makeBoard() {
     for (let y = 0; y < this.height; y++) {
       this.board.push(Array.from({ length: this.width }));
     }
-    console.log("makeBoard")
+    
   }
 
   makeHtmlBoard() {
@@ -52,16 +52,10 @@ makeBoard() {
   
       board.append(row);
     }
-    console.log("makeHTMLBoard")
+    
   }
 
-
-
-
-
-
-
-  findSpotForCol(x) {
+findSpotForCol(x) {
     for (let y = this.height - 1; y >= 0; y--) {
       if (!this.board[y][x]) {
         return y;
@@ -79,19 +73,19 @@ makeBoard() {
   
     const spot = document.getElementById(`${y}-${x}`);
     spot.append(piece);
-    console.log("placeintable")
+    
   }
   
   endGame(msg) {
     alert(msg);
     const top = document.querySelector("#column-top");
-      top.removeEventListener("click", this.handleGameClick);
+    top.removeEventListener("click", this.handleGameClick);
   }
 
   handleClick(evt) {
     // get x from ID of clicked cell
     const x = +evt.target.id;
-    console.log(evt)
+    
     // get next spot in column (if none, ignore click)
    
     const y = this.findSpotForCol(x);
