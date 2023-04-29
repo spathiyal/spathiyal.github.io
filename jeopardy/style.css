@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#game {
+    display: flex;
+    background-color: rgb(32, 32, 32)
+}
+
+.card {
+    width: 160px;
+    height: 120px;
+    background-color: rgb(26, 26, 255);
+    border-left: solid rgb(19, 19, 160) 10px;
+    border-right: solid rgb(11, 11, 91) 10px;
+    border-top: solid rgb(1, 161, 200) 10px;
+    border-bottom: solid rgb(20, 20, 89) 10px;
+    text-align: center;
+    font-size: 100%;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120%;
+
+}
+
+.card-title {
+    width: 160px;
+    height: 120px;
+    background-color: rgb(26, 26, 255);
+    border-left: solid rgb(19, 19, 160) 10px;
+    border-right: solid rgb(11, 11, 91) 10px;
+    border-top: solid rgb(1, 161, 200) 10px;
+    border-bottom: solid rgb(20, 20, 89) 10px;
+    text-align: center;
+    font-size: 15px;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120%;
+}
+
+.card-text {
+    color: rgb(177, 237, 10);
+
+}
+
+.btn {
+    background-color: #1539ee;
+    color: solid hsl(227, 84%, 86%);
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+
+
+    top: 50%;
+}
+
+
+
+h1 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+}
