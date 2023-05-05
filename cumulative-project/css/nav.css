@@ -1,0 +1,61 @@
+/* Navigation bar */
+
+nav {
+    display: flex;
+    /* background-color: #ff6600; */
+    background-color: black;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 3px 3px 0 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 0.85rem;
+    margin: 0 3px;
+  
+  }
+  
+  .nav-right {
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  .navbar-story-links {
+    font-size: 0.85rem;
+    border-left: 1px solid black;
+    font-weight: bold;
+    padding-left: 5px;
+  }
+  
+  .navbar-story-links :hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: orange;
+    
+  }
+
+  .navbar-brand :hover {
+    
+    color: orange;
+    
+  }
+
+  .navbar-brand :focus{
+ 
+    font-weight: bolder;
+    color: orange;
+    
+  }
+
+  .navbar-story-links :focus{
+ 
+    font-weight: bolder;
+    color: orange;
+    
+  }
+
+  
